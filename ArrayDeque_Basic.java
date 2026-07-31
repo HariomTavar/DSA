@@ -11,5 +11,6 @@ public class ArrayDeque_Basic {
         id.offerFirst(67);
         id.addLast(98);
         System.out.println(id);
+        System.out.println(id.peek());
     }
 }
