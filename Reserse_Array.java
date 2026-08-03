@@ -11,7 +11,7 @@ public class Reserse_Array {
             j--;
         }
         for(int k : arr){
-            System.out.println("linewise"+k);
+            System.out.println(" "+k);
         }
     }
     public static void main(String[] args) {

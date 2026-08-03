@@ -39,7 +39,6 @@ li.add( new Student(34, 045, "shree"));
 li.add( new Student(334, 0475, "shreeRam"));
 li.add( new Student(343, 0455, "shreeShyam"));
 System.out.println(li);
-sout
-ArraSs
+
     }
 }

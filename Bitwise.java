@@ -6,4 +6,5 @@ public class Bitwise {
     }
 
     ArrayList<String> list = new ArrayList<>();
+    
 }

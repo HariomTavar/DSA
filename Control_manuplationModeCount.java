@@ -9,6 +9,7 @@ for(int num : arr){
 for ( int i: hash.keySet()){
     System.out.println(i+"<---->"+hash.get(i));
 }
+
     }
     public static void main(String[] args) {
     int [] arr ={1,3,77,3,4,6,6,6,6,6,6,2,3,4,4,45,5,8,556,6,6777};
