@@ -11,5 +11,6 @@ public class Queue_Basic{
         System.out.println(basic.peek());
         System.out.println(basic.poll());
         System.out.println(basic);
+        
     }
 }

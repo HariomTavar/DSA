@@ -3,6 +3,7 @@ import java.util.Queue;
 import java.util.Deque;
 
 public class ArrayDeque_Basic {
+
     public static void main(String[] args) {
         Deque<Integer> id = new ArrayDeque<>();
         id.offer(34);
@@ -12,5 +13,6 @@ public class ArrayDeque_Basic {
         id.addLast(98);
         System.out.println(id);
         System.out.println(id.peek());
+        System.out.println();
     }
 }
