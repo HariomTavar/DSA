@@ -1,19 +1,22 @@
-import java.util.*;
-public class Lower_bound {
-    public static int getLowerBound(int[] arr, int target){
+import java.util.Scanner;
+
+public class Upar_bound {
+    
+ public static int getUparBound(int[] arr, int target){
         int n = arr.length;
         int s = 0;
         int e = n-1;
         int ans = -1;
         while (s<=e) {
             int mid = s +(e-s)/2;
-            if(arr[mid]>= target){
-                ans = mid;
-                e = mid -1;
+            if(arr[mid]<= target){
+              s = mid+1;
 
             }
             else{
-                s = mid+1;
+               
+                 ans = mid;
+                e = mid -1;
             }
         }
         return ans;
@@ -23,10 +26,11 @@ public class Lower_bound {
                 int [] arr = {1,2,3,3,3,3,3,3,3,4,6,7};
                 System.out.print("Enter the target Value: ");
                 int target = sc.nextInt();
-                int ans = getLowerBound(arr, target);
+                int ans = getUparBound(arr, target);
                 System.out.println("Get that value from after performing tassk :" + ans);
 
          sc.close();
     }
   
 }
+
