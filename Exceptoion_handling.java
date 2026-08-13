@@ -8,7 +8,10 @@ public class Exceptoion_handling {
             
         } catch (Exception e) {
             System.out.println("Cannot divided by Zero");
-            // TODO: handle exception
+          
+        }
+        finally{
+            System.out.println("print final");
         }
     }
 }
