@@ -28,5 +28,5 @@ public class Min_value {
         }
 
         System.out.println("Minimum Value = " + min);
-    }
+   sc.close(); }
 }

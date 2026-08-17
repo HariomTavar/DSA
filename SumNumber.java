@@ -11,6 +11,6 @@ public class SumNumber{
         
         
         for(int value:arr){
-            System.out.println(value);
+            System.out.print(value+" ");
         }
-    }}
+    sc.close();}}
