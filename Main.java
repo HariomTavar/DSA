@@ -10,6 +10,13 @@ public class Main{
         System.out.println("Enter number");
         int n = sc.nextInt();
         obj2.Count_number(n);
+        Min_value obj3 = new Min_value();
+        int [] arr;
+          System.out.println("Enter 5 numbers:");
+
+        for(int i = 0; i < arr.length; i++) {
+            arr[i] = sc.nextInt();
+        }
 
   sc.close();  }
 }
