@@ -6,6 +6,7 @@ print("sum of a and b" ,a+b);
 print("Remainder when i divide a to b :", a%b);
 # show the data type :
 print(type(a));
+k
 
 #  a greater then b or not
 print("a greater then b ? :" ,a>b);

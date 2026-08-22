@@ -12,3 +12,5 @@ a = (1,2,34,55.5,"rohan","shivam")
 name =[]
 f1 = input("1st :")
 name.append(f1)
+print(name)
+

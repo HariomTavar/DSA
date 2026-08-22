@@ -25,3 +25,4 @@ print(a.replace("Jai","Shree"))
 #  find method
 
 print(a.find("R"))
+
