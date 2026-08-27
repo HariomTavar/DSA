@@ -1,0 +1,1 @@
+print("run code with the help of Object oreiented programming")
