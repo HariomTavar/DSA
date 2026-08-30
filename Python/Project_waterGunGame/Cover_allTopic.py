@@ -13,7 +13,7 @@ print(height)
 print(is_student)
 
 
-    
+
 # =====================================
 # 2. USER INPUT
 # =====================================
@@ -65,8 +65,8 @@ for i in range(1, 6):
 # =====================================
 
 count = 1
-
-while count <= 5:
+n = int(input("Enter the counder value"))
+while count <= n:
     print(count)
     count += 1
 
@@ -204,7 +204,7 @@ d.bark()
 
 
 # =====================================
-# 17. POLYMORPHISM
+# 17. POLYMORPHISM 
 # =====================================
 
 class Cat:
